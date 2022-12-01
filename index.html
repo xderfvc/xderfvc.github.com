@@ -576,7 +576,6 @@
                 container.parentNode.removeChild(container);
                 var decrypted = CryptoJS.AES.decrypt(encrypted, val).toString(CryptoJS.enc.Utf8);
                 document.getElementById("appreciation").innerHTML = decrypted.toString(CryptoJS.enc.Utf8);
-            } else {
             }
         }
     });
